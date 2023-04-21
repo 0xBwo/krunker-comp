@@ -1,0 +1,14 @@
+#uiBase {
+    height: 117.647058% !important;
+    width: 88.235294% !important;
+    transform: scale(1.133333, 0.85) !important;
+}
+#curGameInfo {
+    display: flex !important;
+    visibility: hidden !important;
+}
+#curGameInfo::before {
+    visibility: visible;
+    color: #253DA1;
+    content: 'gWeatness'
+}
