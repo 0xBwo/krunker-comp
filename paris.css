@@ -1,0 +1,5 @@
+#uiBase {
+    height: 125% !important;
+    width: 80% !important;
+    transform: scale(1.25, 0.8) !important;
+}
