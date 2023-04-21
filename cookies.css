@@ -1,0 +1,139 @@
+/* Cookies CSS V2
+still kinda buggy cba to fix enjoy lol */
+#healthValue:before {
+    top: -24px;
+    background: transparent!important;
+    position: absolute;
+    padding-left: 8px;
+    font-size: 20px;
+    content: "voidcreature";
+}
+
+
+
+
+
+
+
+
+
+
+#maxHP, #challIcon {
+    display: none;
+}
+
+#healthValue {
+    font-size: 0;
+	background-color: transparent!important;
+
+}
+#healthValueHolder {
+    background-color: transparent!important;
+}
+#bottomLeftHolder {
+    border: 1px solid black;
+    border-radius: 0 20px 0 20px;
+    padding-top: 10px;
+    height: 90px;
+    padding-left: 10px;
+        background: rgba(0,0,0,0.35);
+}
+#healthBar {
+    margin: 0!important;
+    padding-left: 15px;
+    padding-bottom: 14px;
+    height: 25px;
+}
+.healthBarSeg {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0px;
+    border: 0;
+    margin: 0;
+    margin-right: 0;
+}
+.hpBSeg {
+    border-radius: 0px;
+    box-shadow: none;
+}
+#hudClassIcon {
+    padding-left: 23px;
+    border-radius: 0;
+    width: 70px;
+    height: 70px;
+        background: transparent;
+    padding-bottom: 7px;
+}
+#ammoDisplay {
+    border-radius: 20px 0px 20px 0;
+    border: 1px solid black;
+    width: 230px;
+    height: 90px;
+    background: rgba(0,0,0,0.35)!important;
+}
+#ammoMax {
+    display: none;
+}
+#ammoIcon {
+    display: none;
+}
+#ammoVal {
+   position: absolute;
+   top: 15px;
+   left: 28px;
+    font-size: 40px;
+}
+.weapKey {
+    display: none;
+    width: 0;
+}
+.weapItem>img[style="opacity: 0.7;"] {
+    display: none;
+}
+#weapDisplay {
+    right: 40px;
+    bottom: 62px;
+    position: absolute;
+    z-index: 95;
+}
+.weapItem>img[style="opacity: 0.7; margin-right: 25px;"] {
+    display: none;
+}
+.weapItem>img[style="opacity: 1; margin-right: 25px;"] {
+    margin-right: 0!important;
+    position: absolute;
+    top: -35px;
+    right: 0px;
+}
+.weapItem>img[src="https://assets.krunker.io/textures/weapons/icon_3.png?build=Z140j"] {
+    margin-right: 0!important;
+    position: absolute;
+    top: -48px;
+    right: 25px;
+}
+#timerIcon {
+    display: none;
+}
+#timerDisplay {
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid black;
+    background: rgba(0,0,0,0.35)!important;
+    border-radius: 20px 0px 20px 0;
+}
+#curGameInfo {
+    display: none;
+}
+#leaderDisplay {
+    border: 1px solid black;x
+    background: rgba(0,0,0,0.35)!important;
+    border-radius: 0 20px 0 20px;
+}
+#voiceDisplay {
+    display: none;
+}
+#roundsDisplay {
+    border: 1px solid black;
+}
+.roundScrV {
+    background-color: transparent!important;
+}
