@@ -1,0 +1,242 @@
+::-webkit-scrollbar, #CVersion,#faceitVideo,#mainLogoFace,#killCardKick,#clientExit,#killCardBy,#loadEditrBtn,#loadInfoLHolder,#loadTipsHolder,.endAHolder,#aHolder,#seasonLabel,#newsHolder,#bubbleContainer,#reloadMsg,.weapKey,#igXPBar,#rankedSoonTm,#maxHP,#hudClassIcon,#voiceDisplay,#ammoIcon,#ammoMax,#termsInfo,.headerBarRight,#menuClassName,#menuClassSubtext,#timerIcon,#instructions,#loadInfoRHolder,#loadInfoLHolder,#tlInfHold{
+display:none!important
+}
+
+#ammoIcon {
+    visibility: hidden;
+    position: fixed;
+}
+
+#curGameInfo {
+    display: flex !important;
+    visibility: hidden !important;
+}
+#curGameInfo::before {
+    visibility: visible;
+    content: '*seven';
+    color: #87a7a7;
+}
+
+#newsHolder {
+    display: none;
+}
+
+#popupContent {
+    display: none !important;
+}
+
+#claimPop {
+    display: none !important;
+}
+
+#popupBack {
+    display: none !important;
+}
+
+#streamContainer {
+    display: none !important;
+}
+
+#updateAd {
+    display: none !important;
+}
+
+#rankedBlog {
+    display: none !important;
+}
+
+#aContainer {
+    display: none !important;
+}
+
+#mainLogo{
+  content:url(https://cdn.discordapp.com/attachments/814790327608541205/937664153764646922/output-onlinepngtools_2.png);
+  margin-top: 100px;
+  position : absolute;
+  transform: translateX(0%) translateY(0%) scale(0.5);
+} 
+
+#seasonLabel {
+    display: none !important;
+}
+
+#aMerger {
+    display: none !important; 
+}
+
+#aHolder {
+    display: none !important;
+}
+
+#voiceDisplay {
+    display: none;
+} 
+
+#timerIcon {
+    display: none;
+}
+
+.chatMsg[style*="color:#fc03ec"] {
+	color: #87a7a7 !important;
+}
+
+#newUserGuide {
+    display: none !important;
+}
+
+#dropsPop {
+    display: none !important;
+}
+
+#twitchDropsAd {
+    display: none !important;
+}
+
+#rankedSoonTm {
+    display: none !important;
+}
+
+#krDiscountAd {
+    display: none !important;
+}
+
+#initLoader {
+    background-color: #fff;
+}
+
+#loadHeader {
+    content: linear-gradient(transparent, transparent);
+    background-color: #fff;
+    -webkit-mask-image: url(https://cdn.discordapp.com/attachments/814790327608541205/934405154927677470/Fnaticlogo_square_1.png);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center top;
+    height: 66px;
+    width: 320px;
+}
+
+#loadInfoRHolder {
+    color: #fff;
+    font-size: 0;
+    background-color: #000;
+    padding: 4px 8px;
+    box-shadow: 4px 4px var(--accent);
+}
+
+
+#loadInfoRHolder {
+    display: none !important;
+}
+   
+#loadTipsHolder {
+    color: #87a7a7;
+    font-size: 0;
+}
+
+#loadTipsHolder::before {
+    content: " ";
+    display: block;
+    font-size: 27px;
+}
+
+#loadGamNm {
+    color: #87a7a7;
+} 
+
+.lC-cube {
+    content: url(https://cdn.discordapp.com/attachments/642013213642457098/981454039051022406/unknown.png);
+    height: 150px;
+    width: 150px;
+}
+
+#loadInfoLHolder {
+    color: #fff;
+    font-size: 0;
+    background-color: #fff;
+    padding: 4px 8px;
+    box-shadow: 4px 4px var(--accent);
+}
+
+#loadInfoLHolder {
+    display: none !important;
+}
+
+#loadEditrBtn {
+    display:none !important;
+}
+
+
+
+.buttonP {
+    border: 4px solid #87a7a7 !important;
+}
+
+.buttonR {
+    border: 4px solid #87a7a7 !important;
+}
+
+.buttonO {
+    border: 4px solid #87a7a7 !important;
+}
+
+.buttonPI {
+    border: 4px solid #87a7a7 !important;
+}
+
+#faceItIconM {
+    display: none !important;
+}
+
+.menBtnIcn {
+    color: #fff !important;
+}
+
+.progressBarInner {
+    height: 100%;
+    background-image: linear-gradient(to right,#fff,#fff,94%,white);
+    transition: width 1s ease-in-out;
+    border-radius: 3px;
+}
+
+.buttonG {
+    border: 4px solid #fff !important;
+}
+
+.buttonB {
+    border: 4px solid #fff !important;
+}
+
+#headerRight {
+    display: none !important;
+}
+
+.rankClck {
+    display: none !important;
+}
+
+#menuClassNameTag [src*="./img/ranked"] {
+    display: none !important;
+}
+
+
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_0.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_1.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_2.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_3.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_4.svg"] { display: none; }
+#leaderContainer > div > img[src*="https://assets.krunker.io/img/ranked/rnk_5.svg"] { display: none; }
+
+#hudClassImg {
+content: url("https://cdn.discordapp.com/attachments/642013213642457098/932816047092944926/FIndkA8XsAQw_aG.png")!important;
+}
+
+#pingIcon {
+	display: none;
+}
+#ingameFPS {
+	color: white !important;
+	visibility: visible;
+}
+
+#ingameFPS::after {
+    content: '';
+    text-transform: var(--text-transform);
